@@ -67,7 +67,7 @@ with open('HISTORY.md', 'r', 'utf-8') as f:
     history = f.read()
 
 setup(
-    name=about['__title__'],
+    name="python3-requests",
     version=about['__version__'],
     description=about['__description__'],
     long_description=readme,
